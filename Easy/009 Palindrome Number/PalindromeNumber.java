@@ -25,4 +25,14 @@ class Solution {
             return false;
         }
     }
+
+    /// for vs code to run code do this    
+    public static void main(String[] args) {
+
+        Solution sol = new Solution();
+        
+        System.out.println(sol.isPalindrome(121));
+        System.out.println(sol.isPalindrome(-121));
+        System.out.println(sol.isPalindrome(123));
+    }
 }
